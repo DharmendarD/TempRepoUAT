@@ -1,2 +1,23 @@
 {
+  "AccountId": "1c9f1700-fc10-4b78-96a5-4111f27b99d8",
+  "AccountSecret": "96511174-5A1F-4908-A068-E95A4FF87EDA",
+  "AccountCode": "test_account1",
+  "AccountType": "9",
+  "Environment": "Prod",
+  "UseOnlyDemoCreds": true,
+  "CurrencyCulture": "en-US",
+  "DefaultCulture": "en-US",
+  "ShouldBypassSSLErrors": "false",
+  "DashBoardCacheTimeOutInSeconds": "60",
+  "DeviceNumberRegexValidation": "^[0-9]{11}$",
+  "DeviceNumberMasking": "#### ### ####",
+  "ShouldUseTestDevice": "false",
+  "DeepLinkUrl": "",
+  "SupportedProductTypes": [],
+  "TermsAndConditionUrl": "https://likewize.com/terms-and-conditions/",
+  "ApiRootUrl": "https://uat-hits-ext-emea.likewize.com/onlineportal/api/v1/",
+  "TermsAndConditionsType": "0",
+  "LogRootUrlEndingWithSlash": "https://uat-hits-ext-emea.likewize.com/onlineportal/api/v1/",
+  "VersionCheckUrl": "",
+  "PrivacyAndPolicyUrl": "https://www.likewize.com/eu-privacy-policy/"
 }
