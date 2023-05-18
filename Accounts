@@ -1,4 +1,26 @@
-{
-    "Culture": "en-US",
-    "Accounts": ["test_account1", "test_account2", "test_account3"],
-}
+[
+  {
+    "Name": "Barclays",
+    "AccountCode": "test_account1",
+    "ImageUrl": "",
+    "AccountCapabilities": "DP, PTS"
+  },
+  {
+    "Name": "Optus",
+    "AccountCode": "test_account2",
+    "ImageUrl": "",
+    "AccountCapabilities": "Upgrade"
+  },
+  {
+    "Name": "Boost",
+    "AccountCode": "test_account3",
+    "ImageUrl": "",
+    "AccountCapabilities": "TradeIn, Upgrade, DP, DPEnroll, PTS"
+  },
+  {
+    "Name": "Boost",
+    "AccountCode": "test_account4",
+    "ImageUrl": "",
+    "AccountCapabilities": "TradeIn, Upgrade, DP, DPEnroll, PTS"
+  },
+]
