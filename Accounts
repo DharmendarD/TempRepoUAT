@@ -2,25 +2,25 @@
   {
     "Name": "Barclays",
     "AccountCode": "test_account1",
-    "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/test_account1/icon.svg",
+    "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/test_account1/icon.png",
     "AccountCapabilities": "DP, PTS"
   },
   {
     "Name": "Optus",
     "AccountCode": "test_account2",
-    "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/test_account1/icon.svg",
+    "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/test_account1/icon.png",
     "AccountCapabilities": "Upgrade"
   },
   {
     "Name": "Boost",
     "AccountCode": "test_account3",
-    "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/test_account1/icon.svg",
+    "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/test_account1/icon.png",
     "AccountCapabilities": "TradeIn, Upgrade, DP, DPEnroll, PTS"
   },
   {
     "Name": "TPG",
     "AccountCode": "test_account4",
-    "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/test_account1/icon.svg",
+    "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/test_account1/icon.png",
     "AccountCapabilities": "TradeIn, Upgrade, DP, DPEnroll, PTS"
   },
 ]
