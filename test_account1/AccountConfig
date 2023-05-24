@@ -1,6 +1,5 @@
 {
-	"AccountConfig": 
-	{
+	"AccountConfig": {
 		"AccountCode": "test_account1",
 		"CurrencyCulture": "en-AU",
 		"DefaultCulture": "en-AU",
@@ -9,8 +8,8 @@
 		"PrivacyAndPolicyUrl": "https://www.likewize.com/eu-privacy-policy/",
 		"AccountType": "Olive",
 		"DashBoardCacheTimeOutInSeconds": "60",
-                "DeviceNumberRegexValidation": "^[0-9]{11}$",
-                "DeviceNumberMasking": "#### ### ####",
+		"DeviceNumberRegexValidation": "^[0-9]{11}$",
+		"DeviceNumberMasking": "#### ### ####",
 		"TermsAndConditionsType": "AsLink"
 	}
 }
