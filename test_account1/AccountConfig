@@ -1,15 +1,16 @@
 {
 	"AccountConfig": {
-		"AccountCode": "test_account1",
+		"AccountCode": "optus_dp_au",
 		"CurrencyCulture": "en-AU",
 		"DefaultCulture": "en-AU",
 		"DeepLinkUrl": null,
-		"TermsAndConditionUrl": "https://likewize.com/terms-and-conditions/",
-		"PrivacyAndPolicyUrl": "https://www.likewize.com/eu-privacy-policy/",
+		"TermsAndConditionUrl": "https://www.optus.com.au/about/legal#link/legal/0",
+		"PrivacyAndPolicyUrl": "https://www.optus.com.au/about/legal/privacy-and-security?SID=con:hme:gblftr:othr:foot:othr:privcy/",
 		"AccountType": "Olive",
 		"DashBoardCacheTimeOutInSeconds": "60",
-		"DeviceNumberRegexValidation": "^[0-9]{11}$",
-		"DeviceNumberMasking": "#### ### ####",
-		"TermsAndConditionsType": "AsLink"
+		"DeviceNumberRegexValidation": "^[0-9]{10}$",
+		"DeviceNumberMasking": "#### ### ###",
+		"TermsAndConditionsType": "AsLink",
+		"CountryCode":"+61"
 	}
 }
