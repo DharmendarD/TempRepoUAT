@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "Barclays",
+    "AccountCode": "barclays_dp_uk",
+    "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/barclays_dp_uk/icon.png",
+    "AccountCapabilities": "DP, PTS"
+  },
+  {
+    "Name": "Optus",
+    "AccountCode": "optus_dp_au",
+    "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/optus_dp_au/icon.png",
+    "AccountCapabilities": "Upgrade"
+  },
+  {
+    "Name": "Boost",
+    "AccountCode": "boostinfinite_dp_us",
+    "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/boostinfinite_dp_us/icon.png",
+    "AccountCapabilities": "TradeIn, Upgrade, DP, DPEnroll, PTS"
+  },
+  {
+    "Name": "TPG",
+    "AccountCode": "tpg_dp_au",
+    "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/tpg_dp_au/icon.png",
+    "AccountCapabilities": "TradeIn, Upgrade, DP, DPEnroll, PTS"
+  },
+]

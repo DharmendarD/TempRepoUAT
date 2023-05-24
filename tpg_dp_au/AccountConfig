@@ -1,0 +1,16 @@
+{
+	"AccountConfig": {
+		"AccountCode": "tpg_dp_au",
+		"CurrencyCulture": "en-AU",
+		"DefaultCulture": "en-AU",
+		"DeepLinkUrl": null,
+		"TermsAndConditionUrl": "https://likewize.com/terms-and-conditions/",
+		"PrivacyAndPolicyUrl": "https://www.likewize.com/eu-privacy-policy/",
+		"AccountType": "TPG",
+		"DashBoardCacheTimeOutInSeconds": "60",
+		"DeviceNumberRegexValidation": "^[0-9]{10}$",
+		"DeviceNumberMasking": "#### ### ###",
+		"TermsAndConditionsType": "AsLink",
+		"CountryCode":"+1"
+	}
+}
