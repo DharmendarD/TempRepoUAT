@@ -9,8 +9,8 @@
 		"PrivacyAndPolicyUrl": "https://www.likewize.com/eu-privacy-policy/",
 		"AccountType": "Olive",
 		"DashBoardCacheTimeOutInSeconds": "60",
-    "DeviceNumberRegexValidation": "^[0-9]{11}$",
-    "DeviceNumberMasking": "#### ### ####",
+                "DeviceNumberRegexValidation": "^[0-9]{11}$",
+                "DeviceNumberMasking": "#### ### ####",
 		"TermsAndConditionsType": "AsLink"
 	}
 }
