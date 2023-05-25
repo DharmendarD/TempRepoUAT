@@ -13,7 +13,7 @@
 		"TermsAndConditionsType": "AsLink",
 		"CountryCode":"+1",
 		"IsPremiumTechSupportEnabled":false,
-		"IsDeviceProtectionEnabled":false,
+		"IsDeviceProtectionEnabled":true,
 		"IsUpgradeEnabled":false,
 		"IsDeviceProtectionEnrollEnabled":false,
 		"IsTradeInEnabled":false,
