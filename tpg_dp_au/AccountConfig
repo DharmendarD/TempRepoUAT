@@ -11,6 +11,11 @@
 		"DeviceNumberRegexValidation": "^[0-9]{10}$",
 		"DeviceNumberMasking": "#### ### ###",
 		"TermsAndConditionsType": "AsLink",
-		"CountryCode":"+1"
+		"CountryCode":"+1",
+		"IsPremiumTechSupportEnabled":false,
+		"IsDeviceProtectionEnabled":false,
+		"IsUpgradeEnabled":false,
+		"IsDeviceProtectionEnrollEnabled":false,
+		"IsTradeInEnabled":false,
 	}
 }
