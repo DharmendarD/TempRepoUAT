@@ -9,6 +9,6 @@
         <Setter Property="CornerRadius" Value="21" />
     </Style>
     <Style TargetType="Page" x:Key="PageStyle" ApplyToDerivedTypes="True">
-        <Setter Property="BackgroundColor" Value="#800076B6" />
+        <Setter Property="BackgroundColor" Value="#400076B6" />
     </Style>
 </ResourceDictionary>
