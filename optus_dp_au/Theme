@@ -1,10 +1,10 @@
         <ResourceDictionary>
-            <Style TargetType="Button">
+            <Style x:Key="PrimaryButton" TargetType="Button">
                 <Setter Property="BackgroundColor" Value="#FDCC08" />
                 <Setter Property="TextColor" Value="#000000" />
                 <Setter Property="CornerRadius" Value="6" />
             </Style>
-            <Style TargetType="Page">
+            <Style x:Key="PrimaryPage" TargetType="Page">
                 <Setter Property="BackgroundColor" Value="#80FDCC08" />
             </Style>
         </ResourceDictionary>
