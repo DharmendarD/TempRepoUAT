@@ -1,0 +1,10 @@
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#161A29" />
+                <Setter Property="TextColor" Value="#FFFFFF" />
+                <Setter Property="CornerRadius" Value="21" />
+            </Style>
+            <Style TargetType="Page">
+                <Setter Property="BackgroundColor" Value="#80161A29" />
+            </Style>
+        </ResourceDictionary>
