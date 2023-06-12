@@ -18,7 +18,7 @@
 		"IsDeviceProtectionEnrollEnabled": false,
 		"IsTradeInEnabled": false
 	},
-	"TechSupport": {
+	"TechSupportConfig": {
 		"ApiKey": "uNFXoVSkIG7U6NMOjJf5c1ucsyuxSpHK1ro8ajhF",
 		"ApiRootUrl": "https://qa1-api-pts-amer.likewize.com/api",
 		"DefaultAndroidExternalDeviceId": "7084",
