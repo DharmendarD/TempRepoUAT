@@ -11,14 +11,14 @@
 		"DeviceNumberRegexValidation": "^[0-9]{10}$",
 		"DeviceNumberMasking": "### ### ####",
 		"TermsAndConditionsType": "AsLink",
-		"CountryCode":"+1",
-		"IsPremiumTechSupportEnabled":true,
-		"IsDeviceProtectionEnabled":true,
-		"IsUpgradeEnabled":false,
-		"IsDeviceProtectionEnrollEnabled":false,
-		"IsTradeInEnabled":false,
+		"CountryCode": "+1",
+		"IsPremiumTechSupportEnabled": true,
+		"IsDeviceProtectionEnabled": true,
+		"IsUpgradeEnabled": false,
+		"IsDeviceProtectionEnrollEnabled": false,
+		"IsTradeInEnabled": false
 	},
-        "TechSupportConfig": {
+	"TechSupportConfig": {
 		"ApiKey": "uNFXoVSkIG7U6NMOjJf5c1ucsyuxSpHK1ro8ajhF",
 		"ApiRootUrl": "https://qa1-api-pts-amer.likewize.com/api",
 		"DefaultAndroidExternalDeviceId": "7084",
