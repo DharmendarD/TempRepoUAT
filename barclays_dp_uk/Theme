@@ -30,9 +30,8 @@
 
     <!--  Start Tech Support Styles Colors  -->
 
-    <Color x:Key="DeviceFrameBorderColor">#000000</Color>
+    <Color x:Key="DeviceFrameBorderColor">#FFFFFF</Color>
     <Color x:Key="DeviceFrameColor">#FFFFFF</Color>
-    <Color x:Key="DeviceFrameShadowColor">#FFFFFF</Color>
     <Color x:Key="TechSupportLinkButtonColor">#0076B6</Color>
     
     <!--  End - Tech Support Colors  -->
