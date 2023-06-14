@@ -24,7 +24,7 @@
 
     <Color x:Key="SeparatorColor">#DFDFDF</Color>
     <Color x:Key="TileFrameColor">#FFFFFF</Color>
-    <Color x:Key="TileFrameBorderColor">#000000</Color>
+    <Color x:Key="TileFrameBorderColor">#FFFFFF</Color>
 
     <!--  End - Common Colors  -->
 
@@ -32,7 +32,7 @@
 
     <Color x:Key="DeviceFrameBorderColor">#000000</Color>
     <Color x:Key="DeviceFrameColor">#FFFFFF</Color>
-    <Color x:Key="DeviceFrameShadowColor">#000000</Color>
+    <Color x:Key="DeviceFrameShadowColor">#FFFFFF</Color>
     <Color x:Key="TechSupportLinkButtonColor">#0076B6</Color>
     
     <!--  End - Tech Support Colors  -->
