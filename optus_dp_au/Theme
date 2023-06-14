@@ -28,12 +28,4 @@
 
     <!--  End - Common Colors  -->
 
-    <!--  Start Tech Support Styles Colors  -->
-
-    <Color x:Key="DeviceFrameBorderColor">#FFFFFF</Color>
-    <Color x:Key="DeviceFrameColor">#FFFFFF</Color>
-    <Color x:Key="TechSupportLinkButtonColor">#37a5ac</Color>
-
-    <!--  End - Tech Support Colors  -->
-
 </ResourceDictionary>
