@@ -19,8 +19,8 @@
 		"IsTradeInEnabled": false
 	},
 	"TechSupportConfig": {
-		"ApiKey": "uNFXoVSkIG7U6NMOjJf5c1ucsyuxSpHK1ro8ajhF",
-		"ApiRootUrl": "https://qa1-api-pts-amer.likewize.com/api",
+		"ApiKey": "HgfBXBu5b89M25q3mbM0p8gHWT1objI67kHkKH5y",
+		"ApiRootUrl": "https://qa2-api-pts-amer.likewize.com/api",
 		"DefaultAndroidExternalDeviceId": "7084",
 		"DefaultiOSExternalDeviceId": "7083"
 	}
