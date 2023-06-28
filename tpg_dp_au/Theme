@@ -22,7 +22,7 @@
 
     <!--  Start Common Styles Colors  -->
 
-    <Color x:Key="SeparatorColor">#DFDFDF</Color>
+    <Color x:Key="SeparatorColor">#e60000</Color>
     <Color x:Key="TileFrameColor">#FFFFFF</Color>
     <Color x:Key="TileFrameBorderColor">#FFFFFF</Color>
 
