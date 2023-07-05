@@ -21,7 +21,7 @@
 
     <Color x:Key="PageBackgroundColor">#FFFFFF</Color>
     <Color x:Key="PageContentBackgroundColor">Transparent</Color>
-    <Color x:Key="PageBusyIndicationBackgroundColor">#BBEEEEEE</Color>
+    <Color x:Key="PageBusyIndicationBackgroundColor">#F4F2FE</Color>
     <Color x:Key="PageBusyIndicationColor">#0076B6</Color>
     <Color x:Key="PageTitleColor">#3200BE</Color>
     <Color x:Key="PageTitleDescriptionColor">#000000</Color>
