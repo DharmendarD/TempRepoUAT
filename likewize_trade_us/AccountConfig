@@ -24,7 +24,7 @@
 		"DefaultAndroidExternalDeviceId": "7084",
 		"DefaultiOSExternalDeviceId": "7083"
 	},
-	"Trade": {
+	"TradeConfig": {
 		"ApiRootUrlEndindWithSlash": "https://dev-oasis-amer.likewize.com/"
 	}
 }
