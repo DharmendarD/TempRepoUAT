@@ -25,6 +25,7 @@
 		"DefaultiOSExternalDeviceId": "7083"
 	},
 	"TradeConfig": {
-		"ApiRootUrlEndindWithSlash": "https://dev-oasis-amer.likewize.com/"
+		"ApiRootUrlEndindWithSlash": "https://dev-oasis-amer.likewize.com/",
+                "AccountId": "b4bcba1d-5634-4edb-a990-640c0f090e70"
 	}
 }
