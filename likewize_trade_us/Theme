@@ -11,7 +11,7 @@
 
     <!--  Start - Page Colors  -->
 
-    <Color x:Key="PageBackgroundColor">#400076B6</Color>
+    <Color x:Key="PageBackgroundColor">#FFFFFF</Color>
     <Color x:Key="PageContentBackgroundColor">Transparent</Color>
     <Color x:Key="PageBusyIndicationBackgroundColor">#BBEEEEEE</Color>
     <Color x:Key="PageBusyIndicationColor">#0076B6</Color>
