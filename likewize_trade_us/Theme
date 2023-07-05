@@ -5,7 +5,7 @@
         <Setter Property="BackgroundColor" Value="#3200BE" />
         <Setter Property="TextColor" Value="#FFFFFF" />
         <Setter Property="CornerRadius" Value="21" />
-        <Setter Property="HeightRequest" Value="42" />
+        <Setter Property="MinimumHeightRequest" Value="45" />
     </Style>
     <!--  Start - Common Styles  -->
 
