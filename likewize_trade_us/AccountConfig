@@ -23,5 +23,8 @@
 		"ApiRootUrl": "https://qa1-api-pts-amer.likewize.com/api",
 		"DefaultAndroidExternalDeviceId": "7084",
 		"DefaultiOSExternalDeviceId": "7083"
+	},
+	"Trade": {
+		"ApiRootUrlEndindWithSlash": "https://dev-oasis-amer.likewize.com/"
 	}
 }
