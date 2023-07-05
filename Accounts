@@ -23,4 +23,10 @@
     "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/tpg_dp_au/icon.png",
     "AccountCapabilities": "TradeIn, Upgrade, DP, DPEnroll, PTS"
   },
+  {
+    "Name": "GTP",
+    "AccountCode": "likewize_trade_us",
+    "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/likewize_trade_us/icon.png",
+    "AccountCapabilities": "TradeIn"
+  }
 ]
