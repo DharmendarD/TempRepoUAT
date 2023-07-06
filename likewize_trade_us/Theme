@@ -1,31 +1,93 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
-    <!--  Start - Common Styles  -->
-    <Style TargetType="Button">
-        <Setter Property="BackgroundColor" Value="#FDCC08" />
-        <Setter Property="TextColor" Value="#FFFFFF" />
-        <Setter Property="CornerRadius" Value="21" />
-        <Setter Property="HeightRequest" Value="42" />
-    </Style>
-    <!--  Start - Common Styles  -->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:controls="clr-namespace:Oasis.Mobile.Core"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
-    <!--  Start - Page Colors  -->
-
-    <Color x:Key="PageBackgroundColor">#40FDCC08</Color>
-    <Color x:Key="PageContentBackgroundColor">Transparent</Color>
-    <Color x:Key="PageBusyIndicationBackgroundColor">#BBEEEEEE</Color>
-    <Color x:Key="PageBusyIndicationColor">#FDCC08</Color>
-    <Color x:Key="PageTitleColor">#37a5ac</Color>
-    <Color x:Key="PageTitleDescriptionColor">#000000</Color>
-
-    <!--  End - Page Colors  -->
-
-    <!--  Start Common Styles Colors  -->
-
-    <Color x:Key="SeparatorColor">#DFDFDF</Color>
+    <!--  Start - Common Styling Colors  -->
+    
+    <Color x:Key="ThemeColor">#3200BE</Color>
+    <Color x:Key="ThemeForeground">#FFFFFF</Color>
+    <Color x:Key="PageHeaderBackground">#F4F2FE</Color>
+    <Color x:Key="PageBackgroundColor">#FFFFFF</Color>
+    <Color x:Key="PageBusyIndicationBackgroundColor">Transparent</Color>
+    <Color x:Key="PageBusyIndicationColor">#F4F2FE</Color>
+    <Color x:Key="SeparatorColor">#CBD5E1</Color>
     <Color x:Key="TileFrameColor">#FFFFFF</Color>
     <Color x:Key="TileFrameBorderColor">#FFFFFF</Color>
 
-    <!--  End - Common Colors  -->
+    <!--  End - Common Styling Colors  -->
 
+    <!--  Start - Common Styles  -->
+    <Style x:Key="PrimaryButton"
+           TargetType="Button"
+           ApplyToDerivedTypes="True">
+        <Setter Property="BackgroundColor"
+                Value="{StaticResource ThemeColor}" />
+        <Setter Property="FontSize"
+                Value="16" />
+        <Setter Property="TextColor"
+                Value="{StaticResource ThemeForeground}" />
+        <Setter Property="CornerRadius"
+                Value="21" />
+        <Setter Property="MinimumHeightRequest"
+                Value="45" />
+        <Setter Property="VerticalOptions"
+                Value="Center" />
+        <Setter Property="HorizontalOptions"
+                Value="Center" />
+    </Style>
+
+    <Style x:Key="SecondaryButton"
+           TargetType="controls:LwButtonSubmit">
+        <Setter Property="BackgroundColor"
+                Value="{DynamicResource ThemeForeground}" />
+        <Setter Property="CornerRadius"
+                Value="10" />
+        <Setter Property="TextColor"
+                Value="{DynamicResource ThemeColor}" />
+        <Setter Property="FontSize"
+                Value="16" />
+        <Setter Property="FontFamily"
+                Value="{DynamicResource RegularFont}" />
+        <Setter Property="BorderWidth"
+                Value="1" />
+        <Setter Property="MinimumHeightRequest"
+                Value="42" />
+        <Setter Property="BorderColor"
+                Value="{DynamicResource ThemeColor}" />
+        <Setter Property="VerticalOptions"
+                Value="Center" />
+        <Setter Property="HorizontalOptions"
+                Value="Center" />
+    </Style>
+    <!--  Start - Common Styles  -->
+
+    <!--  Start - Common Data Templates -->
+
+    <DataTemplate x:Key="HeaderTemplate">
+        <Border Margin="-2"
+                BackgroundColor="{DynamicResource PageHeaderBackground}"
+                HorizontalOptions="Fill">
+            <Grid HeightRequest="49">
+                <controls:LwGlyph Margin="5"
+                                  FontSize="25"
+                                  HorizontalOptions="Start"
+                                  Text="&#xf060;"
+                                  TextColor="{StaticResource ThemeColor}"
+                                  VerticalOptions="Center"
+                                  ZIndex="1">
+                    <controls:LwGlyph.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding BackButtonCommand}" />
+                    </controls:LwGlyph.GestureRecognizers>
+                </controls:LwGlyph>
+
+                <controls:LwLabel HorizontalOptions="Center"
+                                  VerticalOptions="Center"
+                                  TextColor="{StaticResource ThemeColor}"
+                                  Text="{Binding Title}" />
+            </Grid>
+        </Border>
+    </DataTemplate>
+
+    <!--  End - Common Data Templates  -->
 </ResourceDictionary>
