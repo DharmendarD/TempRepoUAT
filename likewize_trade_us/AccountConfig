@@ -1,6 +1,6 @@
 {
 	"AccountConfig": {
-		"AccountCode": "gtp_trade_us",
+		"AccountCode": "likewize_trade_us",
 		"CurrencyCulture": "en",
 		"DefaultCulture": "en",
 		"DeepLinkUrl": null,
