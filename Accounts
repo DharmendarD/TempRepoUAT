@@ -28,5 +28,11 @@
     "AccountCode": "likewize_trade_us",
     "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/likewize_trade_us/icon.png",
     "AccountCapabilities": "TradeIn"
+  },
+ {
+    "Name": "Poorni",
+    "AccountCode": "poorni_dp_uk",
+    "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/likewize_trade_us/icon.png",
+    "AccountCapabilities": "TradeIn"
   }
 ]
