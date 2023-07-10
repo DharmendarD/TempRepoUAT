@@ -15,6 +15,7 @@
 
     <Color x:Key="PageHeaderBackground">#F4F2FE</Color>
     <Color x:Key="PageBackgroundColor">#C0C0F2</Color>
+    <Color x:Key="PageContentBackgroundColor">Transparent</Color>
     <Color x:Key="PageBusyIndicationBackgroundColor">#E6E6FA</Color>
     <Color x:Key="PageBusyIndicationColor">#FFC0CB</Color>
     <controls:LwColor x:Key="PageTitleColor" CloneColorKey="PrimaryColor" />
