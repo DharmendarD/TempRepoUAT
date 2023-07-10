@@ -30,7 +30,7 @@
 	
 
     <Color x:Key="TradeDashboardImageCircleColor">#FEDDFA</Color>
-    <controls:LwColor x:Key="SecondaryIconColor" CloneColorKey="#000000" />
+    <controls:LwColor x:Key="SecondaryIconColor" CloneColorKey="SecondaryColor" />
 
     <!--  End - Common Styling Colors  -->
 
