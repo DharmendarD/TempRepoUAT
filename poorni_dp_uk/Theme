@@ -3,7 +3,7 @@
 
     <!--  Start - Common Styling Colors  -->
 
-    <Color x:Key="PrimaryColor">#E6E6FA</Color>
+    <Color x:Key="PrimaryColor">#734F96</Color>
     <Color x:Key="SecondaryColor">#FFC0CB</Color>
     <Color x:Key="TertiaryColor">#00437D</Color>
     <Color x:Key="QuaternaryColor">#64748B</Color>
