@@ -11,10 +11,17 @@
 
     <Color x:Key="DefaultTextColor">#334155</Color>
 
+ <!--  Start - Page Colors  -->
+
     <Color x:Key="PageHeaderBackground">#F4F2FE</Color>
-    <Color x:Key="PageBackgroundColor">#FFFFFF</Color>
-	<controls:LwColor x:Key="PageBusyIndicationBackgroundColor" AlphaValue="0.55" CloneColorKey="PrimaryColor" />
+    <Color x:Key="PageBackgroundColor">#DFC5FE</Color>
+    <controls:LwColor x:Key="PageBusyIndicationBackgroundColor" AlphaValue="0.55" CloneColorKey="PrimaryColor" />
     <Color x:Key="PageBusyIndicationColor">#FFC0CB</Color>
+    <controls:LwColor x:Key="PageTitleColor" CloneColorKey="PrimaryColor" />
+    <controls:LwColor x:Key="PageTitleDescriptionColor" CloneColorKey="SecondaryColor" />
+
+    <!--  End - Page Colors  -->
+    
 
     <Color x:Key="SeparatorColor">#FFC0CB</Color>
 
