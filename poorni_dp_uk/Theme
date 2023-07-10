@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:controls="clr-namespace:Oasis.Mobile.Core" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!--  Start - Common Styling Colors  -->
+
+    <Color x:Key="PrimaryColor">#E6E6FA</Color>
+    <Color x:Key="SecondaryColor">#FFC0CB</Color>
+    <Color x:Key="TertiaryColor">#00437D</Color>
+    <Color x:Key="QuaternaryColor">#64748B</Color>
+    <Color x:Key="QuinaryColor">#060059</Color>
+
+    <Color x:Key="DefaultTextColor">#334155</Color>
+
+    <Color x:Key="PageHeaderBackground">#F4F2FE</Color>
+    <Color x:Key="PageBackgroundColor">#FFFFFF</Color>
+	<controls:LwColor x:Key="PageBusyIndicationBackgroundColor" AlphaValue="0.55" CloneColorKey="PrimaryColor" />
+    <Color x:Key="PageBusyIndicationColor">#FFC0CB</Color>
+
+    <Color x:Key="SeparatorColor">#FFC0CB</Color>
+
+    <Color x:Key="RoundTileFrameBorderColor">#FFC0CB</Color>
+    <Color x:Key="DeviceFrameBorderColor">#FFC0CB</Color>
+	
+
+    <Color x:Key="TradeDashboardImageCircleColor">#FEDDFA</Color>
+    <controls:LwColor x:Key="SecondaryIconColor" CloneColorKey="#000000" />
+
+    <!--  End - Common Styling Colors  -->
+
+</ResourceDictionary>
