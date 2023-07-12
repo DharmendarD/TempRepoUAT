@@ -16,12 +16,17 @@
 		"IsDeviceProtectionEnabled": true,
 		"IsUpgradeEnabled": false,
 		"IsDeviceProtectionEnrollEnabled": false,
-		"IsTradeInEnabled": false
+		"IsTradeInEnabled": true
 	},
 	"TechSupportConfig": {
 		"ApiKey": "uNFXoVSkIG7U6NMOjJf5c1ucsyuxSpHK1ro8ajhF",
 		"ApiRootUrl": "https://qa1-api-pts-amer.likewize.com/api",
 		"DefaultAndroidExternalDeviceId": "7084",
 		"DefaultiOSExternalDeviceId": "7083"
+	},
+	"TradeConfig": {
+		"ApiRootUrlEndindWithSlash": "https://dev-oasis-amer.likewize.com/",
+                "AccountId": "b4bcba1d-5634-4edb-a990-640c0f090e70"
 	}
+
 }
