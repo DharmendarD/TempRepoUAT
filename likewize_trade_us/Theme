@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<controls:LwDefaultResourceDictionary
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:Oasis.Mobile.Core">
+
+    <!--  Start - Common Styling Colors  -->
+
+    <controls:LwColor x:Key="SecondaryIconColor" CloneColorKey="Neutral50" />
+
+    <!--  End - Common Styling Colors  -->
+
+    <!--  Start - Common Values  -->
+
+    <OnPlatform
+        x:Key="GlobalEntryHeight"
+        x:TypeArguments="x:Double"
+        Default="40">
+        <On Platform="WinUI" Value="35" />
+    </OnPlatform>
+
+    <OnPlatform
+        x:Key="GlobalButtonCornerRadius"
+        x:TypeArguments="x:Int32"
+        Default="22">
+        <On Platform="Android" Value="22" />
+    </OnPlatform>
+    <x:Int32 x:Key="GlobalTileFrameCornerRadius">8</x:Int32>
+
+    <x:Double x:Key="LabelLineHeight">1.5</x:Double>
+    <x:Double x:Key="GlobalEntryFontSize">14</x:Double>
+
+    <x:Boolean x:Key="GlobalTileFrameHasShadow">False</x:Boolean>
+    <Color x:Key="GlobalTileFrameBorderColor">#FFFFFF</Color>
+    <x:Boolean x:Key="DeviceFrameHasShadow">False</x:Boolean>
+
+    <!--  End - Common Values  -->
+
+    <!--  Start - Global Styles  -->
+
+    <Style ApplyToDerivedTypes="True" TargetType="controls:LwBasePage">
+        <Setter Property="StatusBarColor" Value="{DynamicResource Primary5}" />
+    </Style>
+
+    <!--  End - Global Styles  -->
+
+    <!--  Start - Common Data Templates  -->
+
+    <DataTemplate x:Key="HeaderTemplate">
+        <Grid
+            Margin="-2,-3"
+            Padding="16,12"
+            BackgroundColor="{DynamicResource Primary5}"
+            ColumnDefinitions="Auto,*"
+            HorizontalOptions="Fill">
+            <controls:LwGlyph
+                Grid.Column="0"
+                FontSize="18"
+                HorizontalOptions="Start"
+                Text="{x:Static controls:LwGlyphHelper.ARROW_LEFT}"
+                TextColor="{StaticResource Primary}"
+                VerticalOptions="Center"
+                ZIndex="1">
+                <controls:LwGlyph.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding BackButtonCommand, Source={x:StaticResource Source}}" />
+                </controls:LwGlyph.GestureRecognizers>
+            </controls:LwGlyph>
+
+            <controls:LwLabel
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                Style="{controls:LwDynamicLabelStyleGenerator PrimaryMediumBold}"
+                Text="{TemplateBinding Title}"
+                VerticalOptions="Center" />
+        </Grid>
+    </DataTemplate>
+
+    <!--  End - Common Data Templates  -->
+
+</controls:LwDefaultResourceDictionary>
