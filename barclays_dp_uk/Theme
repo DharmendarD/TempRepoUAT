@@ -6,5 +6,32 @@
     <Color x:Key="Primary20">#0088ce</Color>
     <Color x:Key="Primary100">#0076b6</Color>
     <Color x:Key="Primary120">#00395d</Color>
+ <DataTemplate x:Key="HeaderTemplate">
+        <Grid
+            Margin="-2,-3"
+            Padding="16,12"
+            BackgroundColor="{DynamicResource Primary5}"
+            ColumnDefinitions="Auto,*"
+            HorizontalOptions="Fill">
+            <controls:LwGlyph
+                Grid.Column="0"
+                FontSize="18"
+                HorizontalOptions="Start"
+                Text="{x:Static controls:LwGlyphHelper.ARROW_LEFT}"
+                TextColor="{StaticResource Primary}"
+                VerticalOptions="Center"
+                ZIndex="1">
+                <controls:LwGlyph.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding BackButtonCommand, Source={x:StaticResource Source}}" />
+                </controls:LwGlyph.GestureRecognizers>
+            </controls:LwGlyph>
 
+            <controls:LwLabel
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                Style="{controls:LwDynamicLabelStyleGenerator PrimaryMediumBold}"
+                Text="{TemplateBinding Title}"
+                VerticalOptions="Center" />
+        </Grid>
+    </DataTemplate>
 </ResourceDictionary>
