@@ -1,39 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
-    <!--  Start - Common Styles  -->
-    <Style TargetType="Button">
-        <Setter Property="BackgroundColor" Value="#e60000" />
-        <Setter Property="TextColor" Value="#FFFFFF" />
-        <Setter Property="CornerRadius" Value="21" />
-        <Setter Property="HeightRequest" Value="42" />
-    </Style>
-    <!--  Start - Common Styles  -->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:controls="clr-namespace:Oasis.Mobile.Core" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
-    <!--  Start - Page Colors  -->
-
-    <Color x:Key="PageBackgroundColor">#40e60000</Color>
-    <Color x:Key="PageContentBackgroundColor">Transparent</Color>
-    <Color x:Key="PageBusyIndicationBackgroundColor">#BBEEEEEE</Color>
-    <Color x:Key="PageBusyIndicationColor">#e60000</Color>
-    <Color x:Key="PageTitleColor">#c80000</Color>
-    <Color x:Key="PageTitleDescriptionColor">#000000</Color>
-
-    <!--  End - Page Colors  -->
-
-    <!--  Start Common Styles Colors  -->
-
-    <Color x:Key="SeparatorColor">#e60000</Color>
-    <Color x:Key="TileFrameColor">#FFFFFF</Color>
-    <Color x:Key="TileFrameBorderColor">#FFFFFF</Color>
-
-    <!--  End - Common Colors  -->
-
-    <!--  Start Tech Support Styles Colors  -->
-
-    <Color x:Key="DeviceFrameBorderColor">#FFFFFF</Color>
-    <Color x:Key="DeviceFrameColor">#FFFFFF</Color>
-    <Color x:Key="TechSupportLinkButtonColor">#e60000</Color>
-
-    <!--  End - Tech Support Colors  -->
+    <Color x:Key="Primary5">#ff9696</Color>
+    <Color x:Key="Primary10">#ff7e7e</Color>
+    <Color x:Key="Primary20">#ff6969</Color>
+    <Color x:Key="Primary100">#ff5353</Color>
+    <Color x:Key="Primary120">#ff3b3b</Color>
 
 </ResourceDictionary>
