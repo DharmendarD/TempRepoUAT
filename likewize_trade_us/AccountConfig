@@ -1,8 +1,8 @@
 {
 	"AccountConfig": {
 		"AccountCode": "likewize_trade_us",
-		"CurrencyCulture": "en",
-		"DefaultCulture": "en",
+		"CurrencyCulture": "en_us",
+		"DefaultCulture": "en_us",
 		"DeepLinkUrl": null,
 		"TermsAndConditionUrl": "https://likewize.com/terms-and-conditions/",
 		"PrivacyAndPolicyUrl": "https://www.likewize.com/eu-privacy-policy/",
