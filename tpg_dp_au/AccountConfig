@@ -16,7 +16,7 @@
 		"IsDeviceProtectionEnabled":true,
 		"IsUpgradeEnabled":false,
 		"IsDeviceProtectionEnrollEnabled":false,
-		"IsTradeInEnabled":false,
+		"IsTradeInEnabled":true,
 	},
 	"TechSupportConfig": {
 		"ApiKey": "uNFXoVSkIG7U6NMOjJf5c1ucsyuxSpHK1ro8ajhF",
