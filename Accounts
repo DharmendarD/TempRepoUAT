@@ -12,12 +12,6 @@
     "AccountCapabilities": "Upgrade"
   },
   {
-    "Name": "Boost",
-    "AccountCode": "boostinfinite_dp_us",
-    "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/boostinfinite_dp_us/icon.png",
-    "AccountCapabilities": "TradeIn, Upgrade, DP, DPEnroll, PTS"
-  },
-  {
     "Name": "TPG",
     "AccountCode": "tpg_dp_au",
     "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/tpg_dp_au/icon.png",
@@ -26,12 +20,6 @@
   {
     "Name": "GTP",
     "AccountCode": "likewize_trade_us",
-    "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/likewize_trade_us/icon.png",
-    "AccountCapabilities": "TradeIn"
-  },
- {
-    "Name": "Poorni",
-    "AccountCode": "poorni_dp_uk",
     "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/likewize_trade_us/icon.png",
     "AccountCapabilities": "TradeIn"
   }
