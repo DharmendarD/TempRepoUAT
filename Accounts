@@ -22,5 +22,11 @@
     "AccountCode": "likewize_trade_us",
     "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/likewize_trade_us/icon.png",
     "AccountCapabilities": "TradeIn"
+  },
+ {
+    "Name": "GTP",
+    "AccountCode": "boostinfinite_dp_us",
+    "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/boostinfinite_dp_us/icon.png",
+    "AccountCapabilities": "TradeIn"
   }
 ]
