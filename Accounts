@@ -24,7 +24,7 @@
     "AccountCapabilities": "TradeIn"
   },
  {
-    "Name": "GTP",
+    "Name": "Boost",
     "AccountCode": "boostinfinite_dp_us",
     "ImageUrl": "https://raw.githubusercontent.com/DharmendarD/TempRepo/main/boostinfinite_dp_us/icon.png",
     "AccountCapabilities": "TradeIn"
