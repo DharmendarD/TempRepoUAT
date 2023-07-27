@@ -12,8 +12,8 @@
 		"DeviceNumberMasking": "#### ### ####",
 		"TermsAndConditionsType": "AsLink",
 		"CountryCode": "+1",
-		"IsPremiumTechSupportEnabled": true,
-		"IsDeviceProtectionEnabled": true,
+		"IsPremiumTechSupportEnabled": false,
+		"IsDeviceProtectionEnabled": false,
 		"IsUpgradeEnabled": false,
 		"IsDeviceProtectionEnrollEnabled": false,
 		"IsTradeInEnabled": true
