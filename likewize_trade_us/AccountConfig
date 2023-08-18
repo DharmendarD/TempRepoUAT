@@ -28,6 +28,6 @@
 		"ApiRootUrlEndindWithSlash": "https://qa1-oasis-amer.likewize.com/",
                 "AccountId": "b4bcba1d-5634-4edb-a990-640c0f090e70",
                 "DemoIMEIs":["862760239207166","510457163448520"],
-                "DemoCoupons":["PROMO_SPRING_2023","PROMO_AUTUMN_2023","PROMO_SUMMER_2023","PROMO_SPRING_2023"]
+                "DemoCoupons":["PROMO_SPRING_1425","PROMO_AUTUMN_2341","PROMO_SUMMER_3456","PROMO_SPRING_9863"]
 	}
 }
