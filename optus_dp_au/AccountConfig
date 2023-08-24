@@ -32,7 +32,8 @@
 			"0123451234",
 			"0001234567"
 		],
-		"DemoCredentials": null
+		"DemoCredentials": null,
+		"DemoCoupons": null
 	},
 	"UpgradeConfig": {
 		"AccountId": "BC1CC8AC-406A-4BFB-970E-3AC57E126170",
