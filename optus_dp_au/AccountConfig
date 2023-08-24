@@ -11,21 +11,42 @@
 		"DeviceNumberRegexValidation": "^[0-9]{10}$",
 		"DeviceNumberMasking": "#### ### ###",
 		"TermsAndConditionsType": "AsLink",
-		"CountryCode":"+61",
-		"IsPremiumTechSupportEnabled":true,
-		"IsDeviceProtectionEnabled":false,
-		"IsUpgradeEnabled":false,
-		"IsDeviceProtectionEnrollEnabled":false,
-		"IsTradeInEnabled":true,
+		"CountryCode": "+61",
+		"IsPremiumTechSupportEnabled": true,
+		"IsDeviceProtectionEnabled": false,
+		"IsUpgradeEnabled": false,
+		"IsDeviceProtectionEnrollEnabled": false,
+		"IsTradeInEnabled": true
 	},
-	"TechSupportConfig": {
-		"ApiKey": "uNFXoVSkIG7U6NMOjJf5c1ucsyuxSpHK1ro8ajhF",
-		"ApiRootUrl": "https://qa1-api-pts-amer.likewize.com/api",
-		"DefaultAndroidExternalDeviceId": "7084",
-		"DefaultiOSExternalDeviceId": "7083"
+	"ContactConfig": [
+		{
+			"ContactMode": 1,
+			"ContactType": 1,
+			"Value": "1800568979"
+		}
+	],
+	"DemoConfig": {
+		"DemoIMEIs": null,
+		"DemoPhoneNumbers": [
+			"0123456789",
+			"0123451234",
+			"0001234567"
+		],
+		"DemoCredentials": null
 	},
-	"TradeConfig": {
-		"ApiRootUrlEndindWithSlash": "https://qa1-oasis-amer.likewize.com/",
-                "AccountId": "b4bcba1d-5634-4edb-a990-640c0f090e70"
+	"UpgradeConfig": {
+		"AccountId": "BC1CC8AC-406A-4BFB-970E-3AC57E126170",
+		"UpgradeAPIConfig": {
+			"ClientId": "OptMBRCBS*rSSO234User",
+			"ClientSecret": "MOPT*45345345455355123",
+			"RootUrlEndingWithSlash": "https://qa1-hits-ext.likewize.com/onlineportal/api/v1/",
+			"OnlinePortalUrlEndingWithSlash": "https://qa1-hits-ext.likewize.com/onlineportal/"
+		},
+		"StoreUrl": "https://www.optus.com.au/shop/stores",
+		"AuthType": "mdn_postal",
+		"CustomizationKey": "Optus",
+		"DefaultCountryId": "ae1857e3-f43d-4e8a-9f26-8de6ce1a99c4",
+		"LikewizeRepairTermsAndConditionUrl": "http://likewizerepair.com.au/app-terms",
+		"DefaultTimeZone": "Australia/Sydney"
 	}
 }
