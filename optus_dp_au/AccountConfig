@@ -48,6 +48,9 @@
 		"CustomizationKey": "Optus",
 		"DefaultCountryId": "ae1857e3-f43d-4e8a-9f26-8de6ce1a99c4",
 		"LikewizeRepairTermsAndConditionUrl": "http://likewizerepair.com.au/app-terms",
-		"DefaultTimeZone": "Australia/Sydney"
+		"DefaultTimeZone": "Australia/Sydney",
+		"ScreenFlows": {
+			"LaunchScreen": "DiagnosticsIntroductionPage"
+		}
 	}
 }
