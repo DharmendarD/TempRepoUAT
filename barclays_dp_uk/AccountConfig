@@ -23,10 +23,8 @@
 		"ApiRootUrl": "https://qa1-api-pts-amer.likewize.com/api",
 		"DefaultAndroidExternalDeviceId": "7084",
 		"DefaultiOSExternalDeviceId": "7083",
-                "LaunchScreen": "Dashboard"
-	},
-	"TradeConfig": {
-		"ApiRootUrlEndindWithSlash": "https://qa1-oasis-amer.likewize.com/",
-                "AccountId": "b4bcba1d-5634-4edb-a990-640c0f090e70"
+		"ScreenFlows": {
+			"LaunchScreen": "Dashboard"
+		}
 	}
 }
