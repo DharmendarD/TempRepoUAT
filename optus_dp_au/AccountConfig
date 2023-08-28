@@ -14,7 +14,7 @@
 		"CountryCode": "+61",
 		"IsPremiumTechSupportEnabled": true,
 		"IsDeviceProtectionEnabled": false,
-		"IsUpgradeEnabled": false,
+		"IsUpgradeEnabled": true,
 		"IsDeviceProtectionEnrollEnabled": false,
 		"IsTradeInEnabled": true
 	},
