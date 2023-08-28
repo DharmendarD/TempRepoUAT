@@ -16,7 +16,8 @@
 		"IsDeviceProtectionEnabled": false,
 		"IsUpgradeEnabled": false,
 		"IsDeviceProtectionEnrollEnabled": false,
-		"IsTradeInEnabled": true
+		"IsTradeInEnabled": false,
+                "IsTradeDiagnosticsEnabled": true
 	},
 	"DemoConfig": {
 		"DemoIMEIs": [
