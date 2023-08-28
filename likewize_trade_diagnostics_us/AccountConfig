@@ -36,6 +36,9 @@
 	"TradeConfig": {
 		"ApiRootUrlEndindWithSlash": "https://qa1-oasis-amer.likewize.com/",
 		"AccountId": "b4bcba1d-5634-4edb-a990-640c0f090e70",
-		"AccountName": "likewize"
+		"AccountName": "likewize",
+                "ScreenFlows": {
+			"LaunchScreen": "ValidateCodePage"
+		}
 	}
 }
