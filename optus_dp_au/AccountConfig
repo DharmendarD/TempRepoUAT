@@ -50,7 +50,7 @@
 		"LikewizeRepairTermsAndConditionUrl": "http://likewizerepair.com.au/app-terms",
 		"DefaultTimeZone": "Australia/Sydney",
 		"ScreenFlows": {
-			"LaunchScreen": "DiagnosticsIntroductionPage"
+			"LaunchScreen": "IntroductionPage"
 		}
 	}
 }
