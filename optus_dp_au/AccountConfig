@@ -53,7 +53,7 @@
 			"LaunchScreen": "IntroductionPage"
 		}
 	},
-        "DiagnosticsSettings": { 
+        "DiagnosticSettings": { 
                 "SecretKey": "fkmvD3sqfY25riBpRTCvTog8YH4P5fraOHQOP1o7"
         }
 }
