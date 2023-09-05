@@ -52,8 +52,5 @@
 		"ScreenFlows": {
 			"LaunchScreen": "IntroductionPage"
 		}
-	},
-        "DiagnosticSettings": { 
-                "SecretKey": "PSoClKJ9Bu9tR6SAZOAPI7hTANGU5ycf4ok9ncpf"
-        }
+	}
 }
