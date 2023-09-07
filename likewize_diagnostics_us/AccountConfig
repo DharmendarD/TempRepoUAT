@@ -40,5 +40,8 @@
                 "ScreenFlows": {
 			"LaunchScreen": "ValidateCodePage"
 		}
-	}
+	},
+        "DiagnosticsSettings": { 
+                "SecretKey": "fkmvD3sqfY25riBpRTCvTog8YH4P5fraOHQOP1o7"
+        }
 }
