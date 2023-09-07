@@ -1,6 +1,6 @@
 {
 	"AccountConfig": {
-		"AccountCode": "likewize_trade_diagnostics_us",
+		"AccountCode": "likewize_diagnostics_us",
 		"CurrencyCulture": "en-US",
 		"DefaultCulture": "en-US",
 		"DeepLinkUrl": null,
