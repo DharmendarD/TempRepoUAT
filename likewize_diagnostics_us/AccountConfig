@@ -1,0 +1,44 @@
+{
+	"AccountConfig": {
+		"AccountCode": "likewize_diagnostics_us",
+		"CurrencyCulture": "en-US",
+		"DefaultCulture": "en-US",
+		"DeepLinkUrl": null,
+		"TermsAndConditionUrl": "https://likewize.com/terms-and-conditions/",
+		"PrivacyAndPolicyUrl": "https://www.likewize.com/eu-privacy-policy/",
+		"AccountType": "Diagnostics",
+		"DashBoardCacheTimeOutInSeconds": "60",
+		"DeviceNumberRegexValidation": "^[0-9]{11}$",
+		"DeviceNumberMasking": "(###) ###-####",
+		"TermsAndConditionsType": "AsLink",
+		"CountryCode": "+1",
+		"IsPremiumTechSupportEnabled": false,
+		"IsDeviceProtectionEnabled": false,
+		"IsUpgradeEnabled": false,
+		"IsDeviceProtectionEnrollEnabled": false,
+		"IsTradeInEnabled": false,
+    "IsDiagnosticsEnabled": true
+	},
+	"DemoConfig": {
+		"DemoIMEIs": [
+			"862760239207166",
+			"510457163448520"
+		],
+		"DemoPhoneNumbers": null,
+		"DemoCredentials": null,
+		"DemoCoupons": [
+			"PROMO_SPRING_1425",
+			"PROMO_AUTUMN_2341",
+			"PROMO_SUMMER_3456",
+			"PROMO_SPRING_9863"
+		]
+	},
+	"TradeConfig": {
+		"ApiRootUrlEndindWithSlash": "https://qa1-oasis-amer.likewize.com/",
+		"AccountId": "b4bcba1d-5634-4edb-a990-640c0f090e70",
+		"AccountName": "likewize",
+                "ScreenFlows": {
+			"LaunchScreen": "ValidateCodePage"
+		}
+	}
+}
