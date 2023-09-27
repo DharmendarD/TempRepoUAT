@@ -14,7 +14,7 @@
         "Url_Android": "",
         "Url_iOS": "",
         "ActionTriggerLimit": 0,
-        "type": 0,
+        "type": 1,
         "canCloseApp": true
       }
     ]
@@ -34,7 +34,7 @@
         "Url_Android": "",
         "Url_iOS": "",
         "ActionTriggerLimit": 0,
-        "type": 0,
+        "type": 1,
         "canCloseApp": true
       }
     ]
