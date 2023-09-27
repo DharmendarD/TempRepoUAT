@@ -9,6 +9,13 @@
     "currentVersion": "*",
     "updateToVersion": "100.0.0",
     "actions": [
+        {
+        "Text": "Contact Us",
+        "Url_Android": "https://www.optus.com.au/about/legal/privacy-and-security?SID=con:hme:gblftr:othr:foot:othr:privcy/",
+        "Url_iOS": "https://www.optus.com.au/about/legal/privacy-and-security?SID=con:hme:gblftr:othr:foot:othr:privcy/",
+        "ActionTriggerLimit": 0,
+        "type": 0
+      },
       {
         "Text": "Close app",
         "Url_Android": "",
@@ -29,6 +36,13 @@
     "currentVersion": "*",
     "updateToVersion": "100.0.0",
     "actions": [
+      {
+        "Text": "Contact Us",
+        "Url_Android": "https://www.optus.com.au/about/legal/privacy-and-security?SID=con:hme:gblftr:othr:foot:othr:privcy/",
+        "Url_iOS": "https://www.optus.com.au/about/legal/privacy-and-security?SID=con:hme:gblftr:othr:foot:othr:privcy/",
+        "ActionTriggerLimit": 0,
+        "type": 0
+      },
       {
         "Text": "Close app",
         "Url_Android": "",
