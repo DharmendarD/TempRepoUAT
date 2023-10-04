@@ -16,7 +16,8 @@
 		"IsDeviceProtectionEnabled": false,
 		"IsUpgradeEnabled": true,
 		"IsDeviceProtectionEnrollEnabled": false,
-		"IsTradeInEnabled": true
+		"IsTradeInEnabled": true,
+                "VersionCheckUrl": "https://uat-cdn-emea.likewize.com/assets/optus/mobile/uat_optus_device_check.json"
 	},
 	"ContactConfig": [
 		{
