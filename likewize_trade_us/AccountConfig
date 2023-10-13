@@ -21,7 +21,8 @@
 	"DemoConfig": {
 		"DemoIMEIs": [
 			"862760239207166",
-			"510457163448520"
+			"510457163448520",
+                        "012345678901234"
 		],
 		"DemoPhoneNumbers": null,
 		"DemoCredentials": null,
