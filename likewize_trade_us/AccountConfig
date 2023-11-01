@@ -39,6 +39,7 @@
 		"AccountName": "likewize",
 		"ScreenFlows": {
 			"LaunchScreen": "Dashboard"
-		}
+		},
+                "NumberOfPopularDevicesToPresent":12
 	}
 }
