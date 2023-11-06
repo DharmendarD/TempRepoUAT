@@ -26,10 +26,10 @@
 		],
 		"DemoPhoneNumbers": null,
 		"DemoCredentials": [
-			"{"0123456789","TRADE2023"}",
-			"{"1234567890","TRADE2024"}",
-                        "{"applereviewer@apple.com","TRADE2023"}",
-                        "{"googlereviewer@google.com","TRADE2024"}",
+			"0123456789":"TRADE2023",
+			"1234567890":"TRADE2024",
+                        "applereviewer@apple.com":"TRADE2023",
+                        "googlereviewer@google.com":"TRADE2024",
 		],
 		"DemoCoupons": [
 			"PROMO_SPRING_1425",
