@@ -35,7 +35,7 @@
                 "DemoDiagnosticCodes": ["11111111","22222222","33333333"]
 	},
 	"DiagnosticsConfig": {
-		"ApiRootUrlEndindWithSlash": "https://qa1-oasis-amer.likewize.com/",
+		"ApiRootUrlEndindWithSlash": "https://uat-oasis-amer.likewize.com/",
 		"AccountId": "b4bcba1d-5634-4edb-a990-640c0f090e70",
 		"AccountName": "likewize",
                 "ScreenFlows": {
